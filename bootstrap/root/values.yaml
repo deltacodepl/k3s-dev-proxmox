@@ -1,6 +1,6 @@
 gitops:
   repo: https://github.com/deltacodepl/k3s-dev-proxmox
-  revision: main
+  revision: HEAD
 stacks:
   - name: bootstrap
     namespace: argocd  # Override default value
