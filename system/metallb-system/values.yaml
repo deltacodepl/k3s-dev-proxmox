@@ -1,0 +1,12 @@
+metallb:
+  configInline:
+  # peers:
+  # - peer-address: 10.0.0.1
+  #   peer-asn: 64512
+  #   my-asn: 64512
+    address-pools:
+    - name: default
+      protocol: layer2
+      addresses:
+      - 192.168.1.184/29
+
