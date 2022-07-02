@@ -1,6 +1,7 @@
 #!/bin/sh
 
-extra_args="--values values-seed.yaml"
+curl -fks --connect-timeout 5 https://git.domain.com \
+    || extra_args="--values values-seed.yaml"
 
 helm template \
     --include-crds \
