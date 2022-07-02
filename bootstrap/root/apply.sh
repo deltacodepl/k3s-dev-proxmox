@@ -1,7 +1,6 @@
 #!/bin/sh
 
-curl -fks --connect-timeout 5 https://git.segregatory24.pl \
-    || extra_args="--values values-seed.yaml"
+extra_args="--values values-seed.yaml"
 
 helm template \
     --include-crds \

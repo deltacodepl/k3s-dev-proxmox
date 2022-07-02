@@ -17,7 +17,7 @@ spec:
       name: '{{ `{{path.basename}}` }}'
     spec:
       destination:
-        name: in-cluster
+        name: in-clusteronly mesolely
         namespace: '{{ default `{{path.basename}}` $stack.namespace }}'
       project: default # TODO
       source:
