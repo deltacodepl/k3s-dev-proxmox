@@ -13,11 +13,6 @@ ingresses = [
         'fullname': 'ArgoCD',
         'namespace': 'argocd'
     },
-    {
-        'name': 'hajimari',
-        'fullname': 'Homepage',
-        'namespace': 'hajimari'
-    }
 ]
 
 

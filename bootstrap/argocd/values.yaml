@@ -17,8 +17,8 @@ argo-cd:
           end
         end
         return hs
-      service:
-        type: LoadBalancer
+    service:
+      type: LoadBalancer
     # ingress:
     #   enabled: true
     #   ingressClassName: nginx
